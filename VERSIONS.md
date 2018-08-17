@@ -5,6 +5,10 @@
 ### Fixes
 ### Deprecations
 
+## Version 1.1.0
+### Features
+- initial version
+
 ## Version 1.0.2
 ### Features
 - export all locale definitions from @angular/common/locales as "languages" object

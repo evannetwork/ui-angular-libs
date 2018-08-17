@@ -1,6 +1,6 @@
 {
   "public": {
-    "author": "contractus",
+    "author": "evan GmbH",
     "dapp": {
       "dependencies": {},
       "entrypoint": "angularlibs.js",
@@ -8,8 +8,8 @@
         "angularlibs.js",
         "angularlibs.css"
       ],
-      "type": "library",
-      "origin": "QmTZGYTcHmHNtgvxCiU9NZtpt37co8oz2sX6YrUHitT4bw"
+      "origin": "QmZysHtACVAsKvX978NQi66Poa7Fm8p6ZV9s3pws5vEhZA",
+      "type": "library"
     },
     "description": "Contractus core angular libraries and dependencies.",
     "name": "angularlibs",
@@ -18,13 +18,14 @@
       "contractus",
       "library"
     ],
-    "version": "1.0.2",
+    "version": "1.1.0",
     "versions": {
-      "0.9.0": "QmUH3e1wrjTQ6KTUPtpwuPjuBf4PcmTvASysQ3BoAPKubj",
       "0.1.0": "QmfVFdcF9SUQR5cECBSpcv3EeK5deDDUY8gkn7zWQtcN69",
+      "0.9.0": "QmUH3e1wrjTQ6KTUPtpwuPjuBf4PcmTvASysQ3BoAPKubj",
       "1.0.0": "QmPJFJjWCQ16oD49ofQZGdVnETNDsqTTH1MiUgkyTQEFYx",
       "1.0.1": "QmRpAT62NwQCZHZbuYyTT8BonJbccv7FdC325xtWywCjcn",
-      "1.0.2": "QmTeLCqqsVJZyaW1AcoLD9X6b7K51nBiNPyiXZbfYMs2Mb"
+      "1.0.2": "QmTeLCqqsVJZyaW1AcoLD9X6b7K51nBiNPyiXZbfYMs2Mb",
+      "1.1.0": "QmZkSLD1gJVv6xChArTxxwfYB4mD893cqvw2AKAfo2hLrQ"
     }
   }
 }
