@@ -41,6 +41,7 @@
     "tslint": "^5.9.1",
     "typescript": "^2.6.2"
   },
+  "homepage": "https://evannetwork.github.io/",
   "keywords": [
     "javascript",
     "typescript",
@@ -53,6 +54,10 @@
   "license": "AGPL-3.0-only",
   "main": "dist/index.js",
   "name": "@evan.network/ui-angular-libs",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evannetwork/ui-angular-libs.git"
+  },
   "typings": "dist/index.d.ts",
   "version": "1.1.0"
 }
