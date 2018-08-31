@@ -36,6 +36,7 @@ System.map['rxjs/BehaviorSubject'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs/Observable'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs/Subject'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs'] = 'angularlibs.evan!dapp-content';
+
 export {
   BrowserModule,
   DomSanitizer
@@ -220,18 +221,12 @@ export {
   HttpModule
 } from '@angular/http';
 
-export {
-  ZXingScannerModule,
-  ZXingScannerComponent
-} from '@zxing/ngx-scanner';
+import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
 
-export {
-  Result
-} from '@zxing/library';
-
-// import languages
+const ZXingScannerModule = zxing.default.ZXingScannerModule
 
 import * as languages from './languages';
 export {
-  languages
+  languages,
+  ZXingScannerModule
 };
