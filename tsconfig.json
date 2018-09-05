@@ -15,7 +15,7 @@
       "dom"
     ],
     "paths": {
-      "dapp-browser": ["../node_modules/@evan.network/ui-dapp-browser/runtime/build/main"]
+      "dapp-browser": ["../../ui-dapp-browser/runtime/build/main"]
     },
     "skipLibCheck": true,
     "types": []
