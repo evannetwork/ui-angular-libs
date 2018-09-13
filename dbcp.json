@@ -8,7 +8,7 @@
         "angularlibs.js",
         "angularlibs.css"
       ],
-      "origin": "Qmaq2KCVGwFYKRxdCwLcky1uHa7y2LyPBbukDWYZjvovth",
+      "origin": "QmUGJfK7vdFbtad4xiZr1rQycY8ZV3M256Q9CpmKhgRKoE",
       "type": "library"
     },
     "description": "Contractus core angular libraries and dependencies.",
@@ -25,7 +25,7 @@
       "1.0.0": "QmPJFJjWCQ16oD49ofQZGdVnETNDsqTTH1MiUgkyTQEFYx",
       "1.0.1": "QmRpAT62NwQCZHZbuYyTT8BonJbccv7FdC325xtWywCjcn",
       "1.0.2": "QmTeLCqqsVJZyaW1AcoLD9X6b7K51nBiNPyiXZbfYMs2Mb",
-      "1.1.0": "QmQsKf2Fio3p3znNEewvKJtBUpg3HZVC4HFG1uBqHp7bdt"
+      "1.1.0": "QmQ7JTD2bFGFE4YSt5RteRu6EtzE91czcphAysPdjitRXr"
     }
   }
 }
