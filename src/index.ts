@@ -168,6 +168,7 @@ export { Transfer } from '@ionic-native/transfer';
 export { FilePath } from '@ionic-native/file-path';
 export { Camera } from '@ionic-native/camera';
 export { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
+export { FileOpener } from '@ionic-native/file-opener';
 
 export {
   Platform,

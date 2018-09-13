@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- add ionic-file-opener
+
 ### Fixes
 ### Deprecations
 

@@ -55,5 +55,8 @@
     "url": "git@github.com:evannetwork/ui-angular-libs.git"
   },
   "typings": "dist/index.d.ts",
-  "version": "1.1.0"
+  "version": "1.1.0",
+  "dependencies": {
+    "@ionic-native/file-opener": "^4.12.2"
+  }
 }
