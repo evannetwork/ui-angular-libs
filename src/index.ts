@@ -36,6 +36,7 @@ System.map['rxjs/BehaviorSubject'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs/Observable'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs/Subject'] = 'angularlibs.evan!dapp-content';
 System.map['rxjs'] = 'angularlibs.evan!dapp-content';
+
 export {
   BrowserModule,
   DomSanitizer
@@ -167,6 +168,7 @@ export { Transfer } from '@ionic-native/transfer';
 export { FilePath } from '@ionic-native/file-path';
 export { Camera } from '@ionic-native/camera';
 export { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
+export { FileOpener } from '@ionic-native/file-opener';
 
 export {
   Platform,
@@ -220,18 +222,12 @@ export {
   HttpModule
 } from '@angular/http';
 
-export {
-  ZXingScannerModule,
-  ZXingScannerComponent
-} from '@zxing/ngx-scanner';
+import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
 
-export {
-  Result
-} from '@zxing/library';
-
-// import languages
+const ZXingScannerModule = zxing.default.ZXingScannerModule
 
 import * as languages from './languages';
 export {
-  languages
+  languages,
+  ZXingScannerModule
 };
