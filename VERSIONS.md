@@ -3,6 +3,7 @@
 ## Next Version
 ### Features
 - add ionic-file-opener
+- add qr-code display library
 
 ### Fixes
 ### Deprecations
