@@ -14,6 +14,7 @@
     "@ionic-native/camera": "^4.7.0",
     "@ionic-native/core": "4.4.0",
     "@ionic-native/file": "^4.7.0",
+    "@ionic-native/file-opener": "^4.12.2",
     "@ionic-native/file-path": "^4.7.0",
     "@ionic-native/qr-scanner": "^4.7.0",
     "@ionic-native/splash-screen": "4.4.0",
@@ -55,8 +56,5 @@
     "url": "git@github.com:evannetwork/ui-angular-libs.git"
   },
   "typings": "dist/index.d.ts",
-  "version": "1.1.0",
-  "dependencies": {
-    "@ionic-native/file-opener": "^4.12.2"
-  }
+  "version": "1.1.0"
 }
