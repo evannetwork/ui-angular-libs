@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- add d3.js
+
 ### Fixes
 ### Deprecations
 
