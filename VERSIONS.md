@@ -3,9 +3,15 @@
 ## Next Version
 ### Features
 ### Fixes
-- update `ng-circle-progress` version
-
 ### Deprecations
+
+## Version 1.3.0
+### Features
+- add d3.js
+
+## Version 1.2.0
+### Features
+- update `ng-circle-progress` version
 
 ## Version 1.2.0
 ### Features
