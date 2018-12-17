@@ -5,6 +5,10 @@
 ### Fixes
 ### Deprecations
 
+## Version 1.3.1
+### Features
+- add missing dist folder for release
+
 ## Version 1.3.0
 ### Features
 - add d3.js
