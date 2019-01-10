@@ -27,15 +27,21 @@
 
 import { System } from 'dapp-browser';
 
-System.map['@angular/core'] = 'angularlibs.evan!dapp-content';
+System.map['@angular/core'] = 'core.angular.libs.evan!dapp-content';
 System.map['@angular/compiler'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/common'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
-System.map['rxjs/BehaviorSubject'] = 'angularlibs.evan!dapp-content';
-System.map['rxjs/Observable'] = 'angularlibs.evan!dapp-content';
-System.map['rxjs/Subject'] = 'angularlibs.evan!dapp-content';
-System.map['rxjs'] = 'angularlibs.evan!dapp-content';
+[
+  'rxjs/BehaviorSubject',
+  'rxjs/Observable',
+  'rxjs/observable/merge',
+  'rxjs/operator/share',
+  'rxjs/Subject',
+  'rxjs/Subscription',
+].forEach(key => {
+  System.map[key] = 'angularlibs.evan!dapp-content';
+})
 
 export {
   BrowserModule,
