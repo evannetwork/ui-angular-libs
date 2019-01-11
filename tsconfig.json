@@ -30,6 +30,6 @@
     "types": []
   },
   "files": [
-    "./src/index.ts"
+    "./index.ts"
   ]
 }
