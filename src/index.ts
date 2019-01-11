@@ -60,7 +60,6 @@ export {
   AfterViewInit,
   AfterContentInit,
   ANALYZE_FOR_ENTRY_COMPONENTS,
-  AnimationEntryMetadata,
   ApplicationRef,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -152,6 +151,14 @@ export {
 } from '@angular/animations';
 
 export {
+  Http,
+  Response,
+  RequestOptions,
+  Headers,
+  HttpModule
+} from '@angular/http';
+
+export {
   FormsModule,
   Validators,
   FormBuilder,
@@ -170,42 +177,49 @@ export {
 } from '@ionic-native/status-bar';
 
 export { File } from '@ionic-native/file';
-export { Transfer } from '@ionic-native/transfer';
+// export { Transfer } from '@ionic-native/transfer';
 export { FilePath } from '@ionic-native/file-path';
 export { Camera } from '@ionic-native/camera';
 export { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
 export { FileOpener } from '@ionic-native/file-opener';
 
-export {
-  Platform,
-  IonicApp,
-  IonicErrorHandler,
-  IonicModule,
-  NavController,
-  NavParams,
-  IonicPageModule,
-  App,
-  Alert,
-  AlertController,
-  ToastController,
-  Slides,
-  MenuController,
-  PopoverController,
-  ViewController,
-  Config,
-} from 'ionic-angular';
+// export {
+//   Platform,
+//   IonApp,
+//   IonicModule,
+//   NavController,
+//   NavParams,
+//   AlertController,
+//   ToastController,
+//   MenuController,
+//   PopoverController,
+//   Config,
+// } from '@ionic/angular';
+
+// export {
+//   Platform,
+//   IonicApp,
+//   IonicErrorHandler,
+//   IonicModule,
+//   NavController,
+//   NavParams,
+//   IonicPageModule,
+//   App,
+//   Alert,
+//   AlertController,
+//   ToastController,
+//   Slides,
+//   MenuController,
+//   PopoverController,
+//   ViewController,
+//   Config,
+// } from 'ionic-angular';
 
 export {
-  Observable
-} from 'rxjs/Observable';
-
-export {
-  BehaviorSubject
-} from 'rxjs/BehaviorSubject';
-
-export {
-  Subscription
-} from 'rxjs/Subscription';
+  BehaviorSubject,
+  Observable,
+  Subscription,
+} from 'rxjs';
 
 export {
   TranslateModule,
@@ -216,31 +230,31 @@ export {
   NgCircleProgressModule
 } from 'ng-circle-progress';
 
-export {
-  IonTagsInputModule
-} from 'ionic-tags-input';
+// export {
+//   IonTagsInputModule
+// } from 'ionic-tags-input';
 
-export {
-  Http,
-  Response,
-  RequestOptions,
-  Headers,
-  HttpModule
-} from '@angular/http';
+// import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
 
-import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
+// const ZXingScannerModule = zxing.default.ZXingScannerModule;
 
-const ZXingScannerModule = zxing.default.ZXingScannerModule;
+// import * as languages from './languages';
+// export {
+//   languages,
+//   ZXingScannerModule
+// };
 
-import * as languages from './languages';
-export {
-  languages,
-  ZXingScannerModule
-};
+// // 3d.js
+// import * as d3Import from './libs/d3.min.js';
+// const d3 = d3Import.default;
+// export {
+//   d3
+// }
 
-// 3d.js
-import * as d3Import from './libs/d3.min.js';
-const d3 = d3Import.default;
-export {
-  d3
-}
+// import * as angularCore from '@angular/core';
+// import * as angularCommon from '@angular/common';
+// import * as angularForms from '@angular/forms';
+
+// SystemJS.set('@angular/core', SystemJS.newModule(angularCore));
+// SystemJS.set('@angular/common', SystemJS.newModule(angularCommon));
+// SystemJS.set('@angular/forms', SystemJS.newModule(angularForms));
