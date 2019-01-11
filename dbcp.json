@@ -8,7 +8,7 @@
         "angularlibs.css",
         "angularlibs.js"
       ],
-      "origin": "QmfTfYKdjFqavd1mb4q73LzzBBXMdNWmZmJWZQTGUj3LYz",
+      "origin": "QmXAb3PV1dwefqBsQBmbs4NqEgxDPFGqnvVKWqykBdxEt3",
       "type": "library"
     },
     "dbcpVersion": 2,
@@ -23,7 +23,7 @@
       "dapp",
       "library"
     ],
-    "version": "1.3.1",
+    "version": "1.4.0",
     "versions": {
       "0.1.0": "QmfVFdcF9SUQR5cECBSpcv3EeK5deDDUY8gkn7zWQtcN69",
       "0.9.0": "QmUH3e1wrjTQ6KTUPtpwuPjuBf4PcmTvASysQ3BoAPKubj",
@@ -32,7 +32,8 @@
       "1.0.2": "QmTeLCqqsVJZyaW1AcoLD9X6b7K51nBiNPyiXZbfYMs2Mb",
       "1.1.0": "QmQ7JTD2bFGFE4YSt5RteRu6EtzE91czcphAysPdjitRXr",
       "1.2.0": "QmakjLPHNVCzsvBHSextUmYQDWcCzy4vpXDDT5mG5g7Jd8",
-      "1.3.0": "QmUsuQuaTvPzcTqbHqzA2x6Uivg58QJykFq2eUPTW2LqQd"
+      "1.3.0": "QmUsuQuaTvPzcTqbHqzA2x6Uivg58QJykFq2eUPTW2LqQd",
+      "1.4.0": "QmduoF6zm9f8ER2eexKFHowpY7477iievuReGJKRgFauho"
     }
   }
 }
