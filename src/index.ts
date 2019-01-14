@@ -230,26 +230,26 @@ export {
   NgCircleProgressModule
 } from 'ng-circle-progress';
 
-// export {
-//   IonTagsInputModule
-// } from 'ionic-tags-input';
+export {
+  IonTagsInputModule
+} from './libs/ionic-tags-input/index.js';
 
-// import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
+import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
 
-// const ZXingScannerModule = zxing.default.ZXingScannerModule;
+const ZXingScannerModule = zxing.default.ZXingScannerModule;
 
-// import * as languages from './languages';
-// export {
-//   languages,
-//   ZXingScannerModule
-// };
+import * as languages from './languages';
+export {
+  languages,
+  ZXingScannerModule
+};
 
 // // 3d.js
-// import * as d3Import from './libs/d3.min.js';
-// const d3 = d3Import.default;
-// export {
-//   d3
-// }
+import * as d3Import from './libs/d3.min.js';
+const d3 = d3Import.default;
+export {
+  d3
+}
 
 // import * as angularCore from '@angular/core';
 // import * as angularCommon from '@angular/common';
