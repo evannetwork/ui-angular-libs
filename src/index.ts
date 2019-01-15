@@ -27,7 +27,7 @@
 
 import { System } from 'dapp-browser';
 
-System.map['@angular/core'] = 'core.angular.libs.evan!dapp-content';
+System.map['@angular/core'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/compiler'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/common'] = 'angularlibs.evan!dapp-content';
