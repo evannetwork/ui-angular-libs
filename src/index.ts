@@ -57,11 +57,12 @@ export {
 } from '@angular/platform-browser/animations';
 
 export {
-  AfterViewInit,
   AfterContentInit,
+  AfterViewInit,
   ANALYZE_FOR_ENTRY_COMPONENTS,
   AnimationEntryMetadata,
   ApplicationRef,
+  Attribute,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
   Compiler,

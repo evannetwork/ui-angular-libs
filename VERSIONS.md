@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- export `Attribute` from angular-core
+
 ### Fixes
 ### Deprecations
 
