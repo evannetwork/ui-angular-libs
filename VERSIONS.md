@@ -6,6 +6,7 @@
 
 ### Fixes
 ### Deprecations
+- move d3.js to `d3.libs.evan`, included within the ui-vue-core libs
 
 ## Version 1.4.0
 ### Features

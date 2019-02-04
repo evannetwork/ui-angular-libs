@@ -234,6 +234,3 @@ export { ZXingScannerModule } from '@zxing/ngx-scanner';
 import * as languages from './languages';
 export {  languages, };
 
-// 3d.js
-import * as d3 from '../outer-libs/d3.min.js';
-export { d3 }
