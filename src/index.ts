@@ -33,6 +33,7 @@ System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/common'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
 [
+  'rxjs',
   'rxjs/BehaviorSubject',
   'rxjs/Observable',
   'rxjs/observable/merge',
