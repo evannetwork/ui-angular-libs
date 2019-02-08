@@ -3,7 +3,7 @@
 ## Next Version
 ### Features
 - export `Attribute` from angular-core
-- move `zone.js` to `@evan.network/ui-angular-libs` (it's only needed by angular) 
+- move `zone.js` to `@evan.network/ui-angular-libs` (it's only needed by angular)
 
 ### Fixes
 ### Deprecations
