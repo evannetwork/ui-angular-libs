@@ -27,12 +27,13 @@
 
 import { System } from 'dapp-browser';
 
-System.map['@angular/core'] = 'core.angular.libs.evan!dapp-content';
+System.map['@angular/core'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/compiler'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/common'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
 [
+  'rxjs',
   'rxjs/BehaviorSubject',
   'rxjs/Observable',
   'rxjs/observable/merge',
@@ -57,11 +58,12 @@ export {
 } from '@angular/platform-browser/animations';
 
 export {
-  AfterViewInit,
   AfterContentInit,
+  AfterViewInit,
   ANALYZE_FOR_ENTRY_COMPONENTS,
   AnimationEntryMetadata,
   ApplicationRef,
+  Attribute,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
   Compiler,
@@ -228,19 +230,8 @@ export {
   HttpModule
 } from '@angular/http';
 
-import * as zxing from '@zxing/ngx-scanner/bundles/zxing-ngx-scanner.umd.js';
-
-const ZXingScannerModule = zxing.default.ZXingScannerModule;
+export { ZXingScannerModule } from '@zxing/ngx-scanner';
 
 import * as languages from './languages';
-export {
-  languages,
-  ZXingScannerModule
-};
+export {  languages, };
 
-// 3d.js
-import * as d3Import from './libs/d3.min.js';
-const d3 = d3Import.default;
-export {
-  d3
-}

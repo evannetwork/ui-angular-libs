@@ -2,8 +2,12 @@
 
 ## Next Version
 ### Features
+- export `Attribute` from angular-core
+- move `zone.js` to `@evan.network/ui-angular-libs` (it's only needed by angular)
+
 ### Fixes
 ### Deprecations
+- move d3.js to `d3.libs.evan`, included within the ui-vue-core libs
 
 ## Version 1.4.0
 ### Features
