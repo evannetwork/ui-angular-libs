@@ -33,7 +33,7 @@ This project exports the following libraries for you:
 
 ## API Documentation and Tutorials
 - [DApp Tutorials](https://evannetwork.github.io/dapps/basics)
-- [API Reference UI](https://ipfs.evan.network/ipns/QmReXE5YkiXviaHNG1ASfY6fFhEoiDKuSkgY4hxgZD9Gm8/angular-libs/index.html)
+- [API Reference UI](https://ipfs.test.evan.network/ipns/QmReXE5YkiXviaHNG1ASfY6fFhEoiDKuSkgY4hxgZD9Gm8/angular-libs/index.html)
 
 ## Usage
 ```ts
