@@ -96,6 +96,7 @@ export {
   Output,
   Pipe,
   PipeTransform,
+  PLATFORM_ID,
   QueryList,
   Renderer,
   SimpleChange,
@@ -112,6 +113,8 @@ export {
   CommonModule,
   Location,
   registerLocaleData,
+  isPlatformServer,
+  isPlatformBrowser
 } from '@angular/common';
 
 export {
@@ -202,12 +205,20 @@ export {
 } from 'rxjs/Observable';
 
 export {
+  from
+} from 'rxjs/observable/from';
+
+export {
   BehaviorSubject
 } from 'rxjs/BehaviorSubject';
 
 export {
   Subscription
 } from 'rxjs/Subscription';
+
+export {
+  ReplaySubject
+} from 'rxjs/ReplaySubject';
 
 export {
   TranslateModule,
