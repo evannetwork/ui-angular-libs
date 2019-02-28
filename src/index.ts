@@ -38,6 +38,7 @@ System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
   'rxjs/Observable',
   'rxjs/observable/merge',
   'rxjs/operator/share',
+  'rxjs/operators',
   'rxjs/Subject',
   'rxjs/Subscription',
 ].forEach(key => {
