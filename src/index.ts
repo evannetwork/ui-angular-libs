@@ -37,8 +37,8 @@ System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
   'rxjs/BehaviorSubject',
   'rxjs/Observable',
   'rxjs/observable/merge',
-  'rxjs/operator/share',
   'rxjs/operators',
+  'rxjs/operator/share',
   'rxjs/Subject',
   'rxjs/Subscription',
 ].forEach(key => {
@@ -220,6 +220,16 @@ export {
 export {
   ReplaySubject
 } from 'rxjs/ReplaySubject';
+
+export { 
+  filter,
+  first,
+  map,
+  publishLast,
+  refCount,
+  switchMap,
+  take 
+} from 'rxjs/operators';
 
 export {
   TranslateModule,
