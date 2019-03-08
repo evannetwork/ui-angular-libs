@@ -222,14 +222,14 @@ export {
   ReplaySubject
 } from 'rxjs/ReplaySubject';
 
-export { 
+export {
   filter,
   first,
   map,
   publishLast,
   refCount,
   switchMap,
-  take 
+  take
 } from 'rxjs/operators';
 
 export {
