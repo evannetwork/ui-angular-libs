@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- scope angular and ionic styles to .evan-angular scopes
+
 ### Fixes
 ### Deprecations
 
