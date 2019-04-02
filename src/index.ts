@@ -88,6 +88,8 @@ export {
   InjectionToken,
   Injector,
   Input,
+  IterableDiffers,
+  KeyValueDiffers,
   NgModule,
   NgModuleRef,
   NgZone,
