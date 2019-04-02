@@ -28,6 +28,7 @@
 import { System } from '@evan.network/ui-dapp-browser';
 
 System.map['@evan.network/ui-angular-libs'] = 'angularlibs.evan!dapp-content';
+System.map['angular-libs'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/core'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/compiler'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
