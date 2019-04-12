@@ -25,8 +25,10 @@
   https://evan.network/license/
 */
 
-import { System } from 'dapp-browser';
+import { System } from '@evan.network/ui-dapp-browser';
 
+System.map['@evan.network/ui-angular-libs'] = 'angularlibs.evan!dapp-content';
+System.map['angular-libs'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/core'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/compiler'] = 'angularlibs.evan!dapp-content';
 System.map['@angular/platform-browser'] = 'angularlibs.evan!dapp-content';
@@ -37,6 +39,7 @@ System.map['@angular/forms'] = 'angularlibs.evan!dapp-content';
   'rxjs/BehaviorSubject',
   'rxjs/Observable',
   'rxjs/observable/merge',
+  'rxjs/operators',
   'rxjs/operator/share',
   'rxjs/Subject',
   'rxjs/Subscription',
@@ -86,6 +89,8 @@ export {
   InjectionToken,
   Injector,
   Input,
+  IterableDiffers,
+  KeyValueDiffers,
   NgModule,
   NgModuleRef,
   NgZone,
@@ -96,6 +101,7 @@ export {
   Output,
   Pipe,
   PipeTransform,
+  PLATFORM_ID,
   QueryList,
   Renderer,
   SimpleChange,
@@ -112,6 +118,8 @@ export {
   CommonModule,
   Location,
   registerLocaleData,
+  isPlatformServer,
+  isPlatformBrowser
 } from '@angular/common';
 
 export {
@@ -202,12 +210,30 @@ export {
 } from 'rxjs/Observable';
 
 export {
+  from
+} from 'rxjs/observable/from';
+
+export {
   BehaviorSubject
 } from 'rxjs/BehaviorSubject';
 
 export {
   Subscription
 } from 'rxjs/Subscription';
+
+export {
+  ReplaySubject
+} from 'rxjs/ReplaySubject';
+
+export {
+  filter,
+  first,
+  map,
+  publishLast,
+  refCount,
+  switchMap,
+  take
+} from 'rxjs/operators';
 
 export {
   TranslateModule,

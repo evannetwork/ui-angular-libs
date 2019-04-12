@@ -63,12 +63,12 @@
     "SASS"
   ],
   "license": "AGPL-3.0-only",
-  "main": "dist/index.js",
+  "main": "dist/angularlibs.js",
   "name": "@evan.network/ui-angular-libs",
   "repository": {
     "type": "git",
     "url": "git@github.com:evannetwork/ui-angular-libs.git"
   },
   "typings": "dist/index.d.ts",
-  "version": "2.0.0"
+  "version": "2.1.0"
 }
