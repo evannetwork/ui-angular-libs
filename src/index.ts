@@ -186,24 +186,7 @@ export { Camera } from '@ionic-native/camera';
 export { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
 export { FileOpener } from '@ionic-native/file-opener';
 
-export {
-  Platform,
-  IonicApp,
-  IonicErrorHandler,
-  IonicModule,
-  NavController,
-  NavParams,
-  IonicPageModule,
-  App,
-  Alert,
-  AlertController,
-  ToastController,
-  Slides,
-  MenuController,
-  PopoverController,
-  ViewController,
-  Config,
-} from 'ionic-angular';
+export * from 'ionic-angular';
 
 export {
   Observable
