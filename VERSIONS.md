@@ -3,9 +3,13 @@
 ## Next Version
 ### Features
 ### Fixes
+### Deprecations
+
+
+## Version 2.1.1
+### Fixes
 - update `cordova-plugin-ionic-webview` to remove security vulnerabilities
 
-### Deprecations
 
 ## Version 2.1.0
 ### Features
