@@ -5,6 +5,12 @@
 ### Fixes
 ### Deprecations
 
+
+## Version 2.1.1
+### Fixes
+- update `cordova-plugin-ionic-webview` to remove security vulnerabilities
+
+
 ## Version 2.1.0
 ### Features
 - scope angular and ionic styles to .evan-angular scopes
