@@ -4,9 +4,13 @@
 ### Features
 
 ### Fixes
-- remove custom agpl appendix
 
 ### Deprecations
+
+
+## Version 2.1.2
+### Fixes
+- remove custom agpl appendix
 
 
 ## Version 2.1.1
