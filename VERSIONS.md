@@ -4,6 +4,7 @@
 ### Features
 
 ### Fixes
+- remove gulp dependencies
 
 ### Deprecations
 
