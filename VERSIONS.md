@@ -4,9 +4,13 @@
 ### Features
 
 ### Fixes
-- remove gulp dependencies
 
 ### Deprecations
+
+
+## Version 2.1.3
+### Fixes
+- remove gulp dependencies
 
 
 ## Version 2.1.2
