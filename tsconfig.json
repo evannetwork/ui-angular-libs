@@ -20,7 +20,7 @@
     "outDir": "../build",
     "paths": {
       "dapp-browser": [
-        "../../ui-dapp-browser/runtime/build/main"
+        "../../ui-dapp-browser/dist/dapp-browser"
       ]
     },
     "rootDir": "./src",
