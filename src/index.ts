@@ -17,7 +17,7 @@
   the following URL: https://evan.network/license/
 */
 
-import { System } from '@evan.network/ui-dapp-browser';
+import { System } from 'dapp-browser';
 
 System.map['@evan.network/ui-angular-libs'] = 'angularlibs.evan!dapp-content';
 System.map['angular-libs'] = 'angularlibs.evan!dapp-content';
